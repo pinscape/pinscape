@@ -14,6 +14,6 @@ starts ticking.*
 
 After the clock starts ticking, the player gets the first hint:
 
-*You find it where it all begun.*
+***You find it where it all begun.***
 
 ### Level 2.

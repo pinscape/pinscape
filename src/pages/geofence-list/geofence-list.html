@@ -3,15 +3,15 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Ionic2 Geofence Example</ion-title>
+    <ion-title>Pinscape</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content class="geofence-list-page">
-  <ion-list inset *ngIf="!isLoading && geofences.length > 0">
+  <!-- <ion-list inset *ngIf="!isLoading && geofences.length > 0">
     <geofence-list-item *ngFor="let geofence of geofences" [geofence]="geofence" (onItemTapped)="geofenceItemTapped(geofence)">
     </geofence-list-item>
-  </ion-list>
+  </ion-list> -->
 
   <ion-card *ngIf="!isLoading && geofences.length === 0">
     <ion-card-header>

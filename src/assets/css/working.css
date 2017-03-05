@@ -1,0 +1,11 @@
+#textfield {
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.hint{
+  border-style:solid;
+  border-color:#287EC7;
+  padding: 1em;
+}

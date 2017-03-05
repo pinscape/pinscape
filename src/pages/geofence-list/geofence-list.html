@@ -12,21 +12,24 @@
     <geofence-list-item *ngFor="let geofence of geofences" [geofence]="geofence" (onItemTapped)="geofenceItemTapped(geofence)">
     </geofence-list-item>
   </ion-list> -->
+<div class="hint">
+  <p id="textfield">
+    Location-based game at the hackUPC
+  </p>
+</div>
 
-  <ion-card *ngIf="!isLoading && geofences.length === 0">
+
+  <!-- <ion-card *ngIf="!isLoading && geofences.length === 0">
     <ion-card-header>
       There are no geofences yet.
     </ion-card-header>
-  </ion-card>
-  <ion-card *ngIf="isLoading">
-    <ion-card-header>
-      Loading geofences...
-    </ion-card-header>
-  </ion-card>
+  </ion-card> -->
+
 </ion-content>
 
-<ion-fab bottom right>
+<ion-fab middle center>
   <button ion-fab (click)="new()" class="add-geofence-button">
-    <ion-icon name="add"></ion-icon>
+    <ion-icon name="cloudy-night"></ion-icon>
+    <p>Start</p>
   </button>
 </ion-fab>
